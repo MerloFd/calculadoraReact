@@ -11,6 +11,6 @@ export const ButtonContainer = styled.div`
     margin: 2px;
     border: 5px solid #CDCDCD;
     
-    background-color:rgb(255, 255, 255);
+    background-color:rgb(238, 238, 238);
     border-radius: 10px;
 `
