@@ -1,26 +1,27 @@
 import styled from 'styled-components';
 
 export const InputContainer = styled.div`
-    width: 100%;
-    height: 75px;
-    background-color:rgb(132, 248, 128);
-
     display: flex;
     align-items: center;
     justify-content: flex-end;  
 
+    width: 100%;
+    height: 75px;
+
     font-size: 24px;
     font-family: 'Roboto';
 
-    input{
-        width: 100%;
-        height: 75px;
-        background-color:rgb(132, 248, 128);
-        border: 0;
-        align: right;
-        padding: 0 10px;
+    input {
+        display: block;
+
+        width: 95%;
+        height: 75%;
+        margin: 0 auto;
+        border: 5px solid #CDCDCD;
 
         font-size: 24px;
         font-family: 'Roboto';
-    }
+        background-color: rgb(129, 206, 127);
+        border-radius: 5px;
+        }
 `
