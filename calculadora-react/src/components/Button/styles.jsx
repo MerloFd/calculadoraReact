@@ -1,11 +1,9 @@
 import styled from "styled-components";
 
 export const ButtonContainer = styled.div`
-    //layout
     text-align: center;
     flex:1;
     
-    //dimension and spacing
     width: 60px;
     padding: 10px;
     margin: 2px;
@@ -13,4 +11,8 @@ export const ButtonContainer = styled.div`
     
     background-color:rgb(238, 238, 238);
     border-radius: 10px;
+
+    &:hover {
+        opacity: 0.5;
+    }
 `
